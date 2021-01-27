@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <title>Order your favorite food!</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1><span class="highlight"> Food</span>ism</h1>
+        <ul>
+          <li><a href="#home"> Home </a></li>
+          <li><a href="#pizza"> Pizza </a></li>
+          <li><a href="#mexican"> Mexican </a></li>
+          <li><a href="#asian"> Asian </a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+        <h2> About us </h2>
+        <div class="container">
+        <img src="images/pizza.jpg" width="300" height="200">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum </p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum </p>
+
+        </div>
+        <div class="container1">
+        <img src="images/dish2.jpg" width="300" height="200">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum </p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum </p>
+
+      </div>
+         <div class="container2">
+         <img src="images/asian.jpg" width="300" height="200">
+         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum </p>
+         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum </p>
+
+        </div>
+        </section>
+
+        <main>
+          <h2>Pick what you like most!</h2>
+          <h4>What would you like to have today?</h4>
+          <h5>Pizza</h5>
+          <form action="www.example.com" method="GET">
+            <div id="pizza">
+              <label for="pizza"> Pizza size: </label>
+              <select id="pizza" name="pizza">
+                <option value="pizza1"> Small (approximately 26cm) </option>
+                <option value="pizza2"> Medium (approximately 32cm) </option>
+                <option value="pizza3"> Large (approximately 45cm) </option>
+              </select>
+            </div>
+    
+            <div id="pizza">
+              <p>Please choose the pizza type</p>
+    
+              <input type="checkbox" name="pizzatype" />
+              <label for="pizzatype"> Pepperoni </label>
+              <input type="checkbox" name="pizzatype" />
+              <label for="pizzatype"> Margherita </label>
+              <input type="checkbox" name="pizzatype" />
+              <label for="pizzatype"> Neapolitan </label>
+              <input type="checkbox" name="pizzatype" />
+              <label for="pizzatype"> Hawaiian </label>
+              <input type="checkbox" name="pizzatype" />
+              <label for="pizzatype"> Vegatarian </label>
+              <input type="checkbox" name="pizzatype" />
+              <label for="pizzatype"> Vegan </label>
+            </div>
+    
+            <div id="mexican">
+              <h5>Mexican</h5>
+              <p>What mexican food would you like to order?</p>
+              <label for="burritos"> Burritos </label>
+              <input type="checkbox" name="burritos" value="Burritos" />
+              <label for="Nachos"> Nachos </label>
+              <input type="checkbox" name="Nachos" id="Chili" value="Nachos" />
+              <label for="Chili"> Chiliconcarne </label>
+              <input type="checkbox" name="Chili" id="Chili" value="Chili" />
+              <br />
+              <br />
+    
+              <label for="spicy"> How spicy should it be? </label>
+              <select id="spicy" name="spicy">
+                <option value="Mild"> Mild (for beginners!) </option>
+                <option value="Medium"> Medium (for the brave!) </option>
+                <option value="super spicy">
+                  Super spicy (for the nutcases!)</option
+                >
+              </select>
+            </div>
+    
+            <div id="asian">
+              <h5>Asian</h5>
+              <p>What asian food would you like to order?</p>
+    
+              <label for="sushi"> Sushi </label>
+              <input type="checkbox" name="sushi" value="sushi" />
+              <label for="ramen"> Ramen </label>
+              <input type="checkbox" name="ramen" id="ramen" value="ramen" />
+              <label for="pho"> Pho </label>
+              <input type="checkbox" name="pho" id="pho" value="Chili" />
+              <br />
+              <br />
+    
+              <label for="spicy"> How spicy should it be? </label>
+              <select id="spicy" name="spicy">
+                <option value="Mild"> Mild (for beginners!) </option>
+                <option value="Medium"> Medium (for the brave!) </option>
+                <option value="super spicy">
+                  Super spicy (for the nutcases!)
+                </option>
+              </select>
+            </div>
+            <br />
+            <br />
+            <input name="submit" id="submit" type="submit" value="Send" " />
+          </form>
+        </main>
+    
+        <footer>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <p>Copyrights of Group 2 (Aina, Heike and Jean!)</p>
+        </footer>
+      </body>
+    </html>
+    
